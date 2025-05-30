@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load saved model and scaler
-model = joblib.load("best_model.joblib")
+model = load_model("best_model.h5")
 scaler = joblib.load("scaler.pkl")
 
 def predict_icu_los_risk(bun, creatinine, ventilated, sofa):
