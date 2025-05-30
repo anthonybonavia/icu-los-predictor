@@ -1,6 +1,0 @@
-streamlit
-tensorflow-cpu
-scikit-learn
-pandas
-joblib
-openpyxl
